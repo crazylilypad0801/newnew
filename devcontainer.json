@@ -1,0 +1,9 @@
+{
+  "name": "Entorno Apache y MySQL",
+  "build": {
+    // Le dice a Codespaces que busque el Dockerfile que está afuera
+    "dockerfile": "../Dockerfile"
+  },
+  // Abre automáticamente los puertos en la web para que puedas ver tu página
+  "forwardPorts": [80, 3306]
+}
